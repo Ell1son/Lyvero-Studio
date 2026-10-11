@@ -1,5 +1,3 @@
-/* ===== ПЕРЕВОДЫ / TRANSLATIONS =====
-   Каждая строка: ключ: [English, Русский, Eesti]. Меняйте тексты прямо здесь. */
 const T = {
   title: [
     "Lyvero Studio: websites for small business",
@@ -17,9 +15,9 @@ const T = {
     "Veebilehed, mis toovad väikeettevõtetele <em>kliente</em>",
   ],
   hero_p: [
-    "The two of us build clear, fast websites for cafés, freelancers, shops and small companies. No jargon, no fuss.",
-    "Мы вдвоём делаем понятные и быстрые сайты для кафе, мастеров, магазинов и небольших компаний. Без лишних слов и сложных терминов.",
-    "Meie kahekesi teeme selgeid ja kiireid veebilehti kohvikutele, meistritele, poodidele ja väikefirmadele. Ilma liigse žargoonita.",
+    "We create clear and fast websites for cafes, craftsmen, shops, and small businesses. No unnecessary words or complex terms.",
+    "Мы делаем понятные и быстрые сайты для кафе, мастеров, магазинов и небольших компаний. Без лишних слов и сложных терминов.",
+    "Loome kohvikutele, käsitöölistele, kauplustele ja väikeettevõtetele selgeid ja kiireid veebilehti. Ilma ebavajalike sõnade või keeruliste terminiteta.",
   ],
   btn_works: ["View our work", "Смотреть работы", "Vaata töid"],
   btn_contact: ["Discuss a project", "Обсудить проект", "Arutame projekti"],
@@ -156,10 +154,6 @@ const T = {
   ],
 };
 
-/* ===== РАБОТЫ / WORKS =====
-   title и desc: [English, Русский, Eesti]. cat: cafe | services | shops.
-   c1 — цвет превью, c2 — фон превью. url "#" = без ссылки.
-   img — необязательно: путь к вашей картинке (например "images/shop.jpg"). Если указана, вместо цветного превью покажется она. */
 const works = [
   {
     cat: "cafe",
@@ -189,22 +183,24 @@ const works = [
   },
   {
     cat: "services",
-    url: "#",
+    url: "https://ell1son.github.io/Construction-Ehitus/",
+    img: "images/ehitus.png",
     c1: "#9bb8ff",
     c2: "#1a2036",
-    title: ["Yoga studio", "Строительная компания", "Joogastuudio"],
+    title: ["Construction company", "Строительная компания", "Ehitusfirma"],
     desc: [
-      "Class schedule and memberships.",
-      "Строительство и ремонт",
-      "Tundide ajakava ja kuukaardid.",
+      "Construction and renovation.",
+      "Строительство и ремонт.",
+      "Ehitus ja renoveerimine.",
     ],
   },
   {
     cat: "cafe",
-    url: "#",
+    url: "https://ell1son.github.io/KINTSU/",
+    img: "images/kintsu.png",
     c1: "#f0c36a",
     c2: "#2a2418",
-    title: ["Bakery", "Ресторан", "Pagarikoda"],
+    title: ["Restaurant", "Ресторан", "Restoran"],
     desc: [
       "Landing page for morning pastry orders.",
       "Лендинг с заказом выпечки на утро.",
