@@ -1,3 +1,5 @@
+/* ===== ПЕРЕВОДЫ / TRANSLATIONS =====
+   Каждая строка: ключ: [English, Русский, Eesti]. Меняйте тексты прямо здесь. */
 const T = {
   title: [
     "Lyvero Studio: websites for small business",
@@ -54,14 +56,14 @@ const T = {
     "Leht, mis selgitab teie pakkumist ja kogub päringuid.",
   ],
   s3h: [
-    "Catalogue & online booking",
-    "Каталог и онлайн-запись",
-    "Kataloog ja online-broneerimine",
+    "Custom design and advanced features",
+    "Индивидуальный дизайн и расширенные возможности",
+    "Kohandatud disain ja täiustatud funktsioonid",
   ],
   s3p: [
-    "Products, services, prices and a booking form, so clients don't have to write manually.",
-    "Товары, услуги, цены и форма записи, чтобы клиенты не писали вручную.",
-    "Tooted, teenused, hinnad ja broneerimisvorm, et kliendid ei peaks käsitsi kirjutama.",
+    "A unique design, thoughtful structure, and modern effects will highlight your business's style and set it apart from the competition.",
+    "Уникальный дизайн, продуманная структура и современные эффекты, которые подчеркнут стиль вашего бизнеса и выделят его среди конкурентов.",
+    "Ainulaadne disain, läbimõeldud struktuur ja modernsed efektid toovad esile teie ettevõtte stiili ja eristavad seda konkurentidest.",
   ],
   s4h: ["Support", "Поддержка", "Tugi"],
   s4p: [
@@ -88,24 +90,101 @@ const T = {
     "Для лендинга или сайта из нескольких страниц.",
     "Maandumislehe või mitmeleheküljelise saidi jaoks.",
   ],
-  p3h: ["Online store", "Интернет-магазин", "E-pood"],
+  p3h: ["Premium", "Премиум", "Premium"],
   p3p: [
     "For a catalogue, orders and booking.",
     "Для каталога, заказов и записи.",
     "Kataloogi, tellimuste ja broneerimise jaoks.",
   ],
-  f1: ["Included item 1", "Что входит: пункт 1", "Sisaldab: punkt 1"],
-  f2: ["Included item 2", "Что входит: пункт 2", "Sisaldab: punkt 2"],
-  f3: ["Included item 3", "Что входит: пункт 3", "Sisaldab: punkt 3"],
+  p1f1: [
+    "One-page website with basic blocks.",
+    "Одностраничный сайт с основными блоками.",
+    "Üheleheline veebisait põhiplokkidega.",
+  ],
+  p1f2: [
+    "Adaptation for mobile devices.",
+    "Адаптация под мобильные устройства.",
+    "Kohandamine mobiilseadmete jaoks.",
+  ],
+  p1f3: [
+    "Feedback form or contact information.",
+    "Форма обратной связи или контактная информация.",
+    "Tagasiside vorm või kontaktandmed.",
+  ],
+  p1f4: [
+    "Basic SEO optimization.",
+    "Базовая SEO-оптимизация.",
+    "Põhiline SEO optimeerimine.",
+  ],
+  p2f1: [
+    "Multi-page website or extended landing page.",
+    "Многостраничный сайт или расширенный лендинг.",
+    "Mitmeleheküljeline veebisait või laiendatud maandumisleht.",
+  ],
+  p2f2: [
+    "Individual design within the agreed scope.",
+    "Индивидуальный дизайн в рамках согласованного объёма.",
+    "Individuaalne disain kokkulepitud ulatuses.",
+  ],
+  p2f3: [
+    "Adaptation for smartphones, tablets and computers.",
+    "Адаптация под смартфоны, планшеты и компьютеры.",
+    "Kohandamine nutitelefonide, tahvelarvutite ja arvutite jaoks.",
+  ],
+  p2f4: [
+    "Application forms and contact information integration.",
+    "Формы заявок и интеграция контактных данных.",
+    "Avaldusvormid ja kontaktandmete integreerimine.",
+  ],
+  p2f5: [
+    "Basic SEO optimization.",
+    "Базовая SEO-оптимизация.",
+    "Põhiline SEO optimeerimine.",
+  ],
+  p3f1: [
+    "Product catalog and product cards.",
+    "Уникальный дизайн и анимации",
+    "Tootekataloog ja tootekaardid.",
+  ],
+  p3f2: [
+    "Thoughtful page structure",
+    "Продуманная структура страниц",
+    "Läbimõeldud lehe struktuur",
+  ],
+  p3f3: [
+    "Advanced SEO Training",
+    "Расширенная SEO-подготовка",
+    "Täiustatud SEO koolitus",
+  ],
+  p3f4: [
+    "Additional integrations by agreement",
+    "Дополнительные интеграции по договорённости",
+    "Lisaintegratsioonid kokkuleppel",
+  ],
   terms_h: ["Terms & conditions", "Условия работы", "Tingimused"],
   t1h: ["Payment", "Оплата", "Makse"],
   t2h: ["Timeline", "Сроки", "Tähtajad"],
   t3h: ["Revisions", "Правки", "Parandused"],
   t4h: ["Hosting & support", "Хостинг и поддержка", "Hostimine ja tugi"],
-  tph: [
-    "Add your terms here.",
-    "Впишите ваши условия здесь.",
-    "Lisa siia oma tingimused.",
+  t1p: [
+    "50% upfront before work begins, with the remaining 50% due upon completion, before the project is delivered.",
+    "50% предоплата перед началом работы, оставшиеся 50% — после завершения проекта, перед передачей клиенту.",
+    "50% ettemaks enne töö alustamist ja ülejäänud 50% pärast projekti valmimist, enne kliendile üleandmist.",
+  ],
+  t2p: [
+    "Delivery times depend on the complexity and scope of your project.",
+    "Сроки выполнения зависят от сложности и объёма вашего заказа.",
+    "Töö valmimise tähtaeg sõltub projekti keerukusest ja mahust.",
+  ],
+  t3p: [
+    "We make revisions based on your preferences and agreed requirements.",
+    "Вносим правки с учётом ваших пожеланий и согласованных требований.",
+    "Teeme muudatusi vastavalt teie soovidele ja kokkulepitud nõuetele.",
+  ],
+  t4p: [
+    "Hosting — €10/month. Website maintenance and support — an additional €20/month. Both services are optional.",
+    "Хостинг — 10 €/мес. Техническая поддержка сайта — дополнительно 20 €/мес. Услуги предоставляются по желанию.",
+    "Veebimajutus — 10 €/kuus. Veebilehe tehniline tugi — lisaks 20 €/kuus. Mõlemad teenused on valikulised.",
   ],
   process_h: ["How we work", "Как мы работаем", "Kuidas me töötame"],
   process_lead: [
@@ -154,6 +233,10 @@ const T = {
   ],
 };
 
+/* ===== РАБОТЫ / WORKS =====
+   title и desc: [English, Русский, Eesti]. cat: cafe | services | shops.
+   c1 — цвет превью, c2 — фон превью. url "#" = без ссылки.
+   img — необязательно: путь к вашей картинке (например "images/shop.jpg"). Если указана, вместо цветного превью покажется она. */
 const works = [
   {
     cat: "cafe",
@@ -189,9 +272,9 @@ const works = [
     c2: "#1a2036",
     title: ["Construction company", "Строительная компания", "Ehitusfirma"],
     desc: [
-      "Construction and renovation.",
-      "Строительство и ремонт.",
-      "Ehitus ja renoveerimine.",
+      "Class schedule and memberships.",
+      "Расписание занятий и абонементы.",
+      "Tundide ajakava ja kuukaardid.",
     ],
   },
   {
